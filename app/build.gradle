@@ -43,6 +43,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-//    implementation project(path: ':mylibrary')
-    implementation 'com.github.CureMosquito:ToPublish:1'
+    implementation project(path: ':mylibrary')
+//    implementation 'com.github.CureMosquito:ToPublish:v1.1.2'
 }

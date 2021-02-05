@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val textView = findViewById<TextView>(R.id.textView)
-        textView.text = Test.plus(1,2).toString()
+        textView.text = Test.plus(1,2).toString() + getString(R.string.test)
     }
 }
